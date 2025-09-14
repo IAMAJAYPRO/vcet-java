@@ -6,7 +6,9 @@ class Teacher extends Person {
         subject = s;
     }
 
-    // Display teacher details 
+    // Display teacher details
     void displayTeacherDetails() {
+        displayPersonDetails();
+        System.out.println("Subject: " + subject);
     }
 }

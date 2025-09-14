@@ -6,7 +6,9 @@ class GraduateStudent extends Student {
         graduationYear = y;
     }
 
-    // Display graudate student details 
+    // Display graudate student details
     void displayGraduateStudentDetails() {
+        displayStudentDetails();
+        System.out.println("Graduation Year: "+graduationYear);
     }
 }

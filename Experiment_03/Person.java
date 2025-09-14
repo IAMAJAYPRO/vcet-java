@@ -7,8 +7,9 @@ class Person {
         age = a;
     }
 
-    // Display person details 
+    // Display person details
     void displayPersonDetails() {
-    
+        System.out.println("Name: "+this.name);
+        System.out.println("Age: "+this.age);
     }
 }
